@@ -16,8 +16,8 @@ const Header = () => {
     <div className="flex items-center gap-4">
      <DarkmodeSwitch/>
     <Link  href={'/'}  className='flex gap-1 items-center'>
-    <span className='text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg'>IMDB</span>
-    <span className='text-xl hidden sm:inline'>Clone</span>
+    <span className='text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg'>MOVIES</span>
+    <span className='text-xl hidden sm:inline'>Now</span>
     </Link>
     </div>
     </div>
