@@ -4,9 +4,12 @@ export default function Results({ results }) {
   return (
     <div>
    {
-    results.map((results)=>(
+    results.map((result)=>(
 
-    <div key={results}>
+    <div key={result.id}>
+
+        <h2>{result.original_title}</h2>
+    </div>
 
 
     ))
